@@ -1,0 +1,9 @@
+FirstPart = int(input()) #Числитель дроби
+SecondPart = int(input()) #Знаменатель дроби
+
+Num = int(input()) #От какого числа
+
+answerPartFirst = Num / SecondPart
+answerPartSecond = answerPartFirst*FirstPart
+
+print("Ответ:",answerPartSecond)
